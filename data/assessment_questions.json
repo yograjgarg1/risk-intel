@@ -1,0 +1,211 @@
+{
+  "answer_scale": [
+    {
+      "score": 0,
+      "label": "Not in place"
+    },
+    {
+      "score": 1,
+      "label": "Ad hoc or informal"
+    },
+    {
+      "score": 2,
+      "label": "In place, gaps remain"
+    },
+    {
+      "score": 3,
+      "label": "Established and evidenced"
+    }
+  ],
+  "categories": {
+    "governance": "Governance and ownership",
+    "inventory": "Model definition and inventory",
+    "documentation": "Documentation",
+    "validation": "Independent validation",
+    "monitoring": "Ongoing monitoring",
+    "ai_third_party": "AI and third-party models"
+  },
+  "critical_categories": [
+    "inventory",
+    "validation"
+  ],
+  "bands": [
+    {
+      "name": "Foundational",
+      "min_percent": 0
+    },
+    {
+      "name": "Developing",
+      "min_percent": 40
+    },
+    {
+      "name": "Established",
+      "min_percent": 65
+    },
+    {
+      "name": "Advanced",
+      "min_percent": 85
+    }
+  ],
+  "questions": [
+    {
+      "id": "gov1",
+      "category": "governance",
+      "question_text": "Is there a named owner for model risk management, at a senior enough level to say no to a model going live?",
+      "weight": 3,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23",
+        "E-23",
+        "APRA"
+      ]
+    },
+    {
+      "id": "gov2",
+      "category": "governance",
+      "question_text": "Does the board or a board committee receive regular reporting on model risk, at least annually?",
+      "weight": 2,
+      "framework_refs": [
+        "SS1/23",
+        "E-23",
+        "APRA"
+      ]
+    },
+    {
+      "id": "gov3",
+      "category": "governance",
+      "question_text": "Is there a written model risk policy that sets out roles, standards and escalation paths?",
+      "weight": 2,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23",
+        "E-23"
+      ]
+    },
+    {
+      "id": "inv1",
+      "category": "inventory",
+      "question_text": "Is there a single inventory covering every model in use, including spreadsheets and vendor models?",
+      "weight": 3,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23",
+        "E-23"
+      ]
+    },
+    {
+      "id": "inv2",
+      "category": "inventory",
+      "question_text": "Does a written definition decide what counts as a model, and is it applied consistently?",
+      "weight": 3,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23",
+        "E-23"
+      ]
+    },
+    {
+      "id": "inv3",
+      "category": "inventory",
+      "question_text": "Is each model tiered by risk, with the depth of governance following the tier?",
+      "weight": 2,
+      "framework_refs": [
+        "SS1/23",
+        "E-23"
+      ]
+    },
+    {
+      "id": "doc1",
+      "category": "documentation",
+      "question_text": "Does every material model have development documentation a competent third party could follow?",
+      "weight": 2,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23",
+        "E-23"
+      ]
+    },
+    {
+      "id": "doc2",
+      "category": "documentation",
+      "question_text": "Are model limitations, assumptions and known weaknesses written down and shared with users?",
+      "weight": 2,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23"
+      ]
+    },
+    {
+      "id": "val1",
+      "category": "validation",
+      "question_text": "Is validation carried out by someone independent of the model's developers and owners?",
+      "weight": 3,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23",
+        "E-23"
+      ]
+    },
+    {
+      "id": "val2",
+      "category": "validation",
+      "question_text": "Does validation cover conceptual soundness, outcomes analysis and ongoing monitoring, not just a code review?",
+      "weight": 3,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23"
+      ]
+    },
+    {
+      "id": "val3",
+      "category": "validation",
+      "question_text": "Are validation findings tracked to closure, with unresolved issues escalated?",
+      "weight": 2,
+      "framework_refs": [
+        "SS1/23",
+        "E-23"
+      ]
+    },
+    {
+      "id": "mon1",
+      "category": "monitoring",
+      "question_text": "Is model performance monitored on a defined schedule against thresholds agreed in advance?",
+      "weight": 2,
+      "framework_refs": [
+        "SR 26-2",
+        "SS1/23",
+        "E-23",
+        "APRA"
+      ]
+    },
+    {
+      "id": "mon2",
+      "category": "monitoring",
+      "question_text": "Is there a defined process for decommissioning or replacing a model that fails monitoring?",
+      "weight": 1,
+      "framework_refs": [
+        "E-23"
+      ]
+    },
+    {
+      "id": "ai1",
+      "category": "ai_third_party",
+      "question_text": "Are AI and machine learning use cases inventoried, with a human in the loop for high-risk decisions?",
+      "weight": 2,
+      "framework_refs": [
+        "E-23",
+        "APRA"
+      ]
+    },
+    {
+      "id": "ai2",
+      "category": "ai_third_party",
+      "question_text": "For vendor and third-party models, do contracts give you the transparency and assurance you need to validate them?",
+      "weight": 2,
+      "framework_refs": [
+        "E-23",
+        "APRA"
+      ]
+    }
+  ]
+}

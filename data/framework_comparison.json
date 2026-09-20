@@ -1,0 +1,226 @@
+[
+  {
+    "framework": "SR 26-2",
+    "dimension": "Definition of a model",
+    "position": "Narrowed to complex quantitative methods grounded in statistical, economic or financial theory. Simple calculations and deterministic rule-based processes are out.",
+    "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+    "as_of": "2026-04-17",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SR 26-2",
+    "dimension": "Scope and threshold",
+    "position": "Described as most relevant to banking organisations above USD 30 billion in total assets, plus smaller institutions with significant model risk.",
+    "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+    "as_of": "2026-04-17",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SR 26-2",
+    "dimension": "AI treatment",
+    "position": "Generative and agentic AI are excluded as novel and rapidly evolving; the agencies signal separate future work.",
+    "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+    "as_of": "2026-04-17",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SR 26-2",
+    "dimension": "Model inventory",
+    "position": "Expects a comprehensive set of information on models under development or in use, detailed enough to understand model risk individually and in aggregate. Oversight scales with materiality, which is set by model purpose together with model exposure: an immaterial model can be monitored rather than fully validated.",
+    "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf",
+    "as_of": "2026-04-17",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SR 26-2",
+    "dimension": "Validation",
+    "position": "Covers conceptual soundness, outcomes analysis and ongoing monitoring, carried out by people with sufficient independence to maintain objectivity. Quality is said to rest on the rigour of the review rather than on organisational structure, and SR 11-7's at-least-annual validation cadence is gone: frequency now follows materiality.",
+    "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf",
+    "as_of": "2026-04-17",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SR 26-2",
+    "dimension": "Governance",
+    "position": "Principles-based: model risk management \"benefits from clear roles and responsibilities with well-defined accountability\", framed around developers, validators and users. SR 11-7's prescriptive board approval and annual policy review are not carried over, and the guidance states it does not set enforceable standards.",
+    "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf",
+    "as_of": "2026-04-17",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SR 26-2",
+    "dimension": "Effective date",
+    "position": "Issued 17 April 2026 by the Fed, OCC and FDIC. Supersedes SR 11-7 (2011) and SR 21-8.",
+    "source_url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+    "as_of": "2026-04-17",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SS1/23",
+    "dimension": "Definition of a model",
+    "position": "\"A quantitative method that applies statistical, economic, financial, or mathematical theories, techniques, and assumptions to process input data into output\", including qualitative or expert-judgment inputs and outputs. Deterministic methods are not automatically models, but materially complex deterministic rules or algorithms that drive business decisions should be brought inside the framework (Principle 1.1b).",
+    "source_url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SS1/23",
+    "dimension": "Scope and threshold",
+    "position": "UK-incorporated banks, building societies and PRA-designated investment firms with internal model approval for regulatory capital. Third-country branches and firms without model permission are out of scope but may use the principles as guidance. Applied proportionately.",
+    "source_url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SS1/23",
+    "dimension": "AI treatment",
+    "position": "No separate AI regime. Risk tiering (Principle 1.3c) must weigh interpretability, explainability, transparency and the potential for designer or data bias in newly advanced approaches and technologies.",
+    "source_url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SS1/23",
+    "dimension": "Model inventory",
+    "position": "Firms must keep a model inventory and tier models by risk.",
+    "source_url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2023/may/model-risk-management-principles-for-banks-ss",
+    "as_of": "2026-04-23",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SS1/23",
+    "dimension": "Validation",
+    "position": "Principle 4: independent model validation.",
+    "source_url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2023/may/model-risk-management-principles-for-banks-ss",
+    "as_of": "2026-04-23",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SS1/23",
+    "dimension": "Governance",
+    "position": "Principle 2: a senior manager holds overall responsibility for model risk management, with regular reporting to the board audit committee.",
+    "source_url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2023/may/model-risk-management-principles-for-banks-ss",
+    "as_of": "2026-04-23",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "SS1/23",
+    "dimension": "Effective date",
+    "position": "Effective 17 May 2024. LIAF01/26 (23 April 2026) clarified that the expectations are not conditions for internal model approval and gave firms 12 months from a first internal model permission to comply.",
+    "source_url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/april/low-impact-amendments-finalisation-april-2026",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "E-23",
+    "dimension": "Definition of a model",
+    "position": "\"An application of theoretical, empirical, judgmental assumptions or statistical techniques, including AI/ML methods, which processes input data to generate results\": the broadest of the four, and the only one naming AI in the definition itself.",
+    "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "E-23",
+    "dimension": "Scope and threshold",
+    "position": "All federally regulated financial institutions, including foreign bank branches and foreign insurance company branches, applied in proportion to size, strategy and complexity.",
+    "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "E-23",
+    "dimension": "AI treatment",
+    "position": "Explicitly in scope, with extra attention to explainability, bias and autonomous decision-making.",
+    "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+    "as_of": "2025-09-11",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "E-23",
+    "dimension": "Model inventory",
+    "position": "A comprehensive inventory of every model whose inherent risk is non-negligible, held as the enterprise-level system of record.",
+    "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "E-23",
+    "dimension": "Validation",
+    "position": "Model review must be independent from model development and confirm that a model is properly specified, working as intended and fit for purpose, across the lifecycle from design to decommissioning.",
+    "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "E-23",
+    "dimension": "Governance",
+    "position": "Enterprise-wide model risk management with senior management oversight; intensity scales with the model risk rating.",
+    "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+    "as_of": "2025-09-11",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "E-23",
+    "dimension": "Effective date",
+    "position": "Final guideline September 2025; effective 1 May 2027.",
+    "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027",
+    "as_of": "2025-09-11",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "APRA",
+    "dimension": "Definition of a model",
+    "position": "No single APRA definition or model risk standard. Model expectations sit inside use-specific standards: APS 113 (IRB credit models), APS 116 (market risk internal models) and APS 117 (IRRBB).",
+    "source_url": "https://www.apra.gov.au/standards/aps-116",
+    "as_of": "2026-07-01",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "APRA",
+    "dimension": "Scope and threshold",
+    "position": "Depends on the standard. For banking, the three-tier proportionality framework applies from 1 July 2026: SFI at $30b+ and MSFI at $300b+, with a 12-month transition when an entity moves up a tier.",
+    "source_url": "https://www.apra.gov.au/news-and-publications/apra-formalises-three-tiered-approach-to-proportionality-banking-prudential",
+    "as_of": "2026-07-01",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "APRA",
+    "dimension": "AI treatment",
+    "position": "30 April 2026 letter to industry: board AI literacy, full-lifecycle governance, human involvement in high-risk decisions, and supplier transparency and assurance.",
+    "source_url": "https://www.apra.gov.au/apra-letter-to-industry-on-artificial-intelligence-ai",
+    "as_of": "2026-07-01",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "APRA",
+    "dimension": "Model inventory",
+    "position": "No general model inventory standard. The April 2026 AI letter expects an inventory of AI use cases.",
+    "source_url": "https://www.apra.gov.au/apra-letter-to-industry-on-artificial-intelligence-ai",
+    "as_of": "2026-07-01",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "APRA",
+    "dimension": "Validation",
+    "position": "No cross-model validation standard. For IRB credit models, APS 113 paragraph 27 requires independent review of rating systems by internal audit or a similar function, APG 113 expects a model risk policy with a model register, change log and issues register, and APS 113 paragraphs 52 to 56 require annual attestation. For market risk, APS 116 makes internal model use conditional on APRA approval, with material changes needing prior written approval (see its internal model approach section; paragraph numbering moved in the January 2025 version).",
+    "source_url": "https://www.apra.gov.au/standards/aps-113",
+    "as_of": "2026-09-19",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "APRA",
+    "dimension": "Governance",
+    "position": "CPS 220 (risk management framework, board accountability) and CPS 230 (operational risk, including service providers that run models and data).",
+    "source_url": "https://www.apra.gov.au/standards/cps-230",
+    "as_of": "2026-07-01",
+    "last_reviewed_by_you": null
+  },
+  {
+    "framework": "APRA",
+    "dimension": "Effective date",
+    "position": "No single date. APS 116 current version from 1 January 2025; AI letter 30 April 2026; CPS 230 current version from 1 July 2026.",
+    "source_url": "https://www.apra.gov.au/standards/cps-230",
+    "as_of": "2026-07-01",
+    "last_reviewed_by_you": null
+  }
+]

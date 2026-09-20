@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic RSS 1.0 (RDF) fixture in the same shape as RBA feeds (title, link, dc:date). -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://purl.org/rss/1.0/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="https://example.org/rss">
+    <title>Sample speeches</title>
+    <link>https://example.org/</link>
+    <description>Fixture</description>
+  </channel>
+  <item rdf:about="https://example.org/speeches/2026/sp-1.html">
+    <title>Financial stability and model risk in a changing world</title>
+    <link>https://example.org/speeches/2026/sp-1.html</link>
+    <dc:date>2026-09-03T13:30:00+10:00</dc:date>
+  </item>
+  <item rdf:about="https://example.org/speeches/2026/sp-2.html">
+    <title>The outlook for the economy</title>
+    <link>https://example.org/speeches/2026/sp-2.html</link>
+    <dc:date>2026-08-20T09:00:00+10:00</dc:date>
+  </item>
+</rdf:RDF>

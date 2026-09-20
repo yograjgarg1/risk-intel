@@ -1,0 +1,11 @@
+# Streamlit settings shared by local runs and the Community Cloud deployment.
+[theme]
+base = "light"
+primaryColor = "#1F5A8C"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# The app builds its SQLite file from the seed JSON on startup.
+fileWatcherType = "auto"

@@ -1,0 +1,21 @@
+name: Check regulator sources
+
+on:
+  schedule:
+    - cron: "0 21 * * 0"   # Mondays 07:00 Brisbane time (UTC+10)
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Dry run (prints candidates to the job log)
+        env:
+          # Add a repository secret named RISK_INTEL_CONTACT holding your email.
+          RISK_INTEL_CONTACT: ${{ secrets.RISK_INTEL_CONTACT }}
+        run: python -m ingestion.check_sources --dry-run --since "$(date -d '8 days ago' +%F)"
